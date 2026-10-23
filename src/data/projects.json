@@ -1,0 +1,135 @@
+[
+  {
+    "id": "on-premise-rag",
+    "date": "2026/09",
+    "title": {
+      "cs": "On-Premise RAG & Firemní AI Brain",
+      "en": "On-Premise Enterprise RAG & Knowledge Engine"
+    },
+    "category": "AI & RAG",
+    "tags": ["Wiki.js", "Git", "AnythingLLM", "LiteLLM", "Ollama", "Docker"],
+    "metrics": {
+      "cs": "100% ochrana know-how, zkrácení vyhledávání v dokumentaci z 15 min na sekundy",
+      "en": "100% data privacy, documentation search time cut from 15 min to seconds"
+    },
+    "flow": ["Wiki (Markdown)", "Git Repo", "AnythingLLM", "LiteLLM Gateway", "Ollama (Lokální LLM)"],
+    "context": {
+      "cs": "Rostoucí objem dokumentace ve Wiki.js vedl k neefektivnímu dohledávání. Požadavkem byla inteligentní AI syntéza s absolutním zákazem úniku dat do veřejného cloudu.",
+      "en": "Growing documentation created search friction. Required smart LLM synthesis with zero sensitive data leaving the company perimeter."
+    }
+  },
+  {
+    "id": "ai-beginners-pilot",
+    "date": "2026/07",
+    "title": {
+      "cs": "Firemní AI akademie a praktická adopce nástrojů",
+      "en": "Corporate AI Academy & Hands-on Adoption"
+    },
+    "category": "AI & Vzdělávání",
+    "tags": ["Generative AI", "Prompt Engineering", "Gemini", "Claude", "NotebookLM", "Change Management"],
+    "metrics": {
+      "cs": "94 % hodnocení jako vynikající, 54 % účastníků ušetří 1–3 hodiny týdně",
+      "en": "94% rated as excellent, 54% participants report 1–3 hours saved weekly"
+    },
+    "flow": ["Metodika a příprava", "Interaktivní workshopy", "Praktické use-cases", "Měření časové úspory"],
+    "context": {
+      "cs": "Příprava a lektorské vedení komplexního vzdělávacího programu pro zaměstnance holdingu. Cílem bylo odbourat obavy z technologií a naučit týmy reálně šetřit čas v každodenní agendě.",
+      "en": "Design and execution of a corporate AI education framework across subsidiaries, removing tech adoption anxiety and unlocking tangible daily productivity."
+    }
+  },
+  {
+    "id": "signi-billing-automation",
+    "date": "2026/03",
+    "title": {
+      "cs": "Automatizované zpracování fakturace kreditů SIGNI",
+      "en": "Automated SIGNI Credit Billing & Reconciliation"
+    },
+    "category": "Automatizace & Integrace",
+    "tags": ["n8n", "REST API", "MS SQL Server", "JSON", "Helios ERP"],
+    "metrics": {
+      "cs": "Zkrácení přípravy dat z 1,5 hodiny na méně než 5 minut, eliminace SPOF",
+      "en": "Data preparation time reduced from 1.5h to under 5 mins, eliminated SPOF"
+    },
+    "flow": ["SIGNI API (22 workspaces)", "n8n Orchestrace", "Deduplikační logika", "MS SQL Import", "Fakturace"],
+    "context": {
+      "cs": "Odstranění zdlouhavého manuálního stahování 22 reportů kreditů pro 12 společností závislého na jednom administrátorovi a zavedení automatického inkrementálního toku dat.",
+      "en": "Eliminated manual downloading of 22 credit usage reports across 12 subsidiaries and replaced it with a scheduled, automated data pipeline."
+    }
+  },
+  {
+    "id": "ares-n8n-validation",
+    "date": "2026/01",
+    "title": {
+      "cs": "Validace partnerů a ochrana cash-flow (ARES + n8n + SQL)",
+      "en": "Automated Partner Validation (ARES API + n8n + SQL)"
+    },
+    "category": "Automatizace & Integrace",
+    "tags": ["MS SQL Server", "T-SQL", "n8n", "REST API", "JSON"],
+    "metrics": {
+      "cs": "100% eliminace chyb v fakturačních údajích a včasná detekce nespolehlivých plátců DPH",
+      "en": "100% elimination of invoicing typos and real-time detection of VAT default risks"
+    },
+    "flow": ["MS SQL (IČ fronta)", "n8n Orchestrátor", "ARES REST API", "JSON Transformace", "SQL Update & Alerty"],
+    "context": {
+      "cs": "Manuální zadávání subjektů vedlo k chybám v fakturaci a riziku ručení za nespolehlivé plátce. Vytvořena noční asynchronní dávková kontrola napojená na oficiální registr.",
+      "en": "Manual partner entry created invoicing friction and tax liability risks. Built a nightly asynchronous batch verification engine tied to official government APIs."
+    }
+  },
+  {
+    "id": "hr-digitalization-portal",
+    "date": "2025–2026",
+    "title": {
+      "cs": "Samoobslužný HR portál a digitalizace schvalování",
+      "en": "Self-Service HR Portal & Process Digitalization"
+    },
+    "category": "Digitalizace & Portály",
+    "tags": ["DevExpress React", "Web API", "MS SQL Server", "SAP ERP", "Wiki.js", "Product Owner"],
+    "metrics": {
+      "cs": "100% bezpapírová agenda nepřítomností, obousměrná integrace do mezd (SAP/Helios)",
+      "en": "100% paperless absence workflows, bi-directional integration with payroll ERPs"
+    },
+    "flow": ["Uživatel (React Portál)", "Schvalovací workflow", "Web API", "MS SQL", "Export do SAP / Helios"],
+    "context": {
+      "cs": "Vedení projektu z pozice Product Ownera. Nahrazení papírových žádanek na dovolené a nepřítomnosti centralizovaným portálem s automatickou synchronizací do docházky a mezd.",
+      "en": "Led as Product Owner to replace paper-based leaves and absences with a unified digital portal featuring bi-directional payroll and attendance integration."
+    }
+  },
+  {
+    "id": "zokb-cybersecurity-compliance",
+    "date": "2023–Současnost",
+    "title": {
+      "cs": "Systém pro řízení kybernetické bezpečnosti (ZOKB & ISO 27001)",
+      "en": "Cybersecurity Compliance & Asset Management System"
+    },
+    "category": "Bezpečnost & Compliance",
+    "tags": [".NET DevExpress", "MS SQL Server", "ISO/IEC 27001", "ZOKB", "GAP Analýza"],
+    "metrics": {
+      "cs": "Jednotný auditní registr primárních i OT aktiv a automatizace periodického skórování",
+      "en": "Unified registry of primary and OT assets with automated compliance scoring"
+    },
+    "flow": ["HR & ERP Importy", "Registr aktiv (SQL)", ".NET DevExpress", "GAP Analýza", "Auditní reporty"],
+    "context": {
+      "cs": "Návrh a datový model pro řízení souladu se zákonem o kybernetické bezpečnosti a normou ISO 27001. Systém eviduje aktiva, dodavatele a OT přístupy napříč dceřinými firmami.",
+      "en": "Architecture and data model for managing compliance with cybersecurity legislation and ISO 27001, tracking core assets, vendors, and OT infrastructure."
+    }
+  },
+  {
+    "id": "gnss-mining-machinery",
+    "date": "2021",
+    "title": {
+      "cs": "Integrace navigačního systému GNSS na velkostrojích",
+      "en": "GNSS Telematics & 3D Modeling on Mining Machinery"
+    },
+    "category": "OT & Průmyslová integrace",
+    "tags": ["GNSS/GPS", "OT Integrace", "MS SQL Server", "3D Modely", "Průmyslové sítě"],
+    "metrics": {
+      "cs": "Propojení reálného pohybu strojů s 3D báňskými modely a automatický tok dat do výroby",
+      "en": "Real-time sync of heavy machinery telematics with 3D geological models into MES"
+    },
+    "flow": ["GNSS senzory na stroji", "Průmyslová LAN / Firewally", "MS SQL Server", "3D Báňský model", "Řízení výroby"],
+    "context": {
+      "cs": "Koordinace nasazení přesné satelitní navigace na velkostrojích, síťové propojení provozní techniky (OT) s podnikovým IT a napojení na báňské plánovací modely.",
+      "en": "Coordinated deployment of high-precision GNSS sensors on heavy mining machinery, bridging field OT hardware with central enterprise SQL infrastructure."
+    }
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "name": "David Skácel",
+  "title": {
+    "cs": "IT Analyst & Solutions Architect",
+    "en": "IT Analyst & Solutions Architect"
+  },
+  "tagline": {
+    "cs": "Propojuji svět byznysových potřeb, datových architektur a moderní automatizace. Vedu paperless digitalizaci, stavím bezpečné on-premise AI a školím týmy pro reálnou produktivitu.",
+    "en": "Bridging business requirements, data architecture, and modern automation. Leading paperless transformation, deploying secure on-premise AI, and enabling teams for real productivity."
+  },
+  "location": {
+    "cs": "Česká republika (Remote / Hybrid)",
+    "en": "Czech Republic (Remote / Hybrid)"
+  },
+  "links": {
+    "cal": "https://cal.com/dvdskcl",
+    "github": "https://github.com/dvdskclcz",
+    "linkedin": "https://www.linkedin.com/in/dvdskcl/",
+    "email": "d.skacel@outlook.cz"
+  },
+  "pillars": [
+    {
+      "title": { "cs": "Paperless & Digitalizace", "en": "Paperless & Digitalization" },
+      "desc": {
+        "cs": "End-to-end řízení projektů: elektronické podpisy, schvalovací workflow a digitalizace firemní agendy.",
+        "en": "End-to-end project delivery: digital signatures, approval workflows, and full enterprise process paperlessness."
+      }
+    },
+    {
+      "title": { "cs": "Praktická adopce AI", "en": "Practical AI Adoption" },
+      "desc": {
+        "cs": "Firemní workshopy a školení na reálnou úsporu času s Gemini, NotebookLM, Copilotem a Claude.",
+        "en": "Corporate workshops and hands-on enablement focused on tangible weekly time-savings with LLMs."
+      }
+    },
+    {
+      "title": { "cs": "On-Premise RAG & Bezpečnost", "en": "On-Premise RAG & Data Privacy" },
+      "desc": {
+        "cs": "Architektura lokálních znalostních bází (Ollama, AnythingLLM, LiteLLM) s nulovým únikem dat.",
+        "en": "Local knowledge engine architectures keeping sensitive intellectual property strictly inside the private network."
+      }
+    },
+    {
+      "title": { "cs": "Automatizace & Datová integrace", "en": "Automation & Data Pipelines" },
+      "desc": {
+        "cs": "Orchestrace toku dat (n8n, REST API, T-SQL) a bezproblémové propojení s ERP (SAP, Helios).",
+        "en": "Data orchestration via n8n, custom REST pipelines, and reliable enterprise integrations into SAP and Helios."
+      }
+    }
+  ],
+  "techStack": [
+    {
+      "category": { "cs": "AI, RAG & LLMs", "en": "AI, RAG & LLMs" },
+      "items": ["On-premise LLMs (Ollama)", "AnythingLLM", "LiteLLM Gateway", "Prompt Engineering", "NotebookLM", "Claude & Gemini APIs"]
+    },
+    {
+      "category": { "cs": "Integrace, Data & Backend", "en": "Integration, Data & Backend" },
+      "items": ["n8n Workflow Automation", "MS SQL Server (T-SQL)", "REST API & Webhooky", "DevExpress React / .NET", "SAP ERP & Helios"]
+    },
+    {
+      "category": { "cs": "Řízení, Bezpečnost & Metodiky", "en": "Governance, Security & Delivery" },
+      "items": [
+        "ITIL 5 Foundation Certified",
+        "ISMS (ISO/IEC 27001) & ZOKB / NIS2",
+        "Product Ownership & UAT",
+        "Vendor Management",
+        "Change Management & Adopce"
+      ]
+    }
+  ]
+}
